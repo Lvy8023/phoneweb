@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(320 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: calc(360 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: calc(375 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: calc(414 / 750 * 100px);
+    }
+}
+
+.title-bar {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.33rem;
+    font-weight: bold;
+    padding-left: 0.17rem;
+    color: #040404;
+    position: relative;
+}
+
+.title-bar .back {
+    position: absolute;
+    left: 0.27rem;
+    top: 0;
+    font-size: 0.3rem;
+    font-weight: normal;
+    padding-left: 0.4rem;
+    color: #007aff;
+    background: url(images/back.png) no-repeat left center / 0.25rem auto;
+}
+
+.search-box {
+    height: 1rem;
+    margin: 0 0.44rem 0.44rem 0.44rem;
+    border-radius: 18px;
+    background-color: #e4e4e6;
+    position: relative;
+}
+
+.search-box img {
+    margin: 0.22rem 0.18rem;
+}
+
+.search-box input {
+    border: none;
+    font-size: 22px;
+    line-height: 28px;
+    top: 0.22rem;
+    bottom: 0.22rem;
+    background-color: #e4e4e6;
+    position: absolute;
+}
+
+.province-title {
+    width: 100%;
+    height: 0.78rem;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    font-size: 18px;
+    padding-top: 0.16rem;
+    padding-left: 0.32rem;
+    color: #6d6d72;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.address-list {
+    width: 100%;
+    height: auto;
+
+}
+
+.address-list li {
+    width: 6.9rem;
+    height: 2.53rem;
+    border-bottom: 1px solid #c8c7cc;
+    margin: 0 auto;
+    padding-top: 0.46rem;
+}
+
+.address-list .pic {
+    width: 2.0rem;
+    height: 1.56rem;
+    padding-left: 0.30rem;
+    float: left;
+}
+
+.address-list .pic img {
+    width: 2.0rem;
+    height: 1.56rem;
+    display: block;
+}
+
+.address-list .info {
+    width: 4.13rem;
+    height: 100%;
+    float: left;
+    padding-left: 0.62rem;
+    color: #000;
+}
+
+.address-list .info .name {
+    font-size: 14px;
+    line-height: 0.58rem;
+}
+
+.address-list .info .province {
+    font-size: 12px;
+    line-height: 0.38rem;
+}
+
+.address-list .info .time {
+    font-size: 12px;
+    line-height: 0.36rem;
+}
+
+.address-list .icon {
+    width: 0.77rem;
+    height: 1.56rem;
+    float: left;
+    background: url(images/more.png) no-repeat center;
+    background-size: 0.17rem;
+}
+
+.index {
+    position: fixed;
+    right: 0.1rem;
+    top: 3.84rem;
+    width: 0.2rem;
+    height: 1.28rem;
+    font-size: 12px;
+    color: #007aff;
+}
+
+.index li {
+    text-align: center;
+}
+
+.tab-bar {
+    width: 100%;
+    height: 0.99rem;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #edeeef;
+}
+
+.tab-bar li {
+    width: 0.9rem;
+    height: 0.7rem;
+    color: #989898;
+}
+
+.tab-bar .pic {
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+.tab-bar .title {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 12px;
+}
